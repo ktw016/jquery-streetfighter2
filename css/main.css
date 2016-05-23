@@ -44,7 +44,7 @@ body {
 	background-image: url('../images/ryu-cool.gif');
 }
 
-.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool, .evil-hadouken {
 	background-repeat: no-repeat;
 }
 
@@ -58,5 +58,29 @@ body {
 	top: 167px;
 	left: 520px;
 	z-index: 10;
+}
+
+.evil-hadouken {
+	background-image: url('../images/hadouken.gif');
+	width: 156px;
+	height: 90px;
+	display: none;
+	position: absolute;
+	float: right;
+	top: 167px;
+	right: 520px;
+	z-index: 10;
+}
+
+.hulk-ryu {
+    filter: hue-rotate(90deg);
+    width: 659px;
+	height: 494px;
+	float:right;
+	-webkit-transform: scaleX(-1);
+	-moz-transform: scaleX(-1);
+	-ms-transform:scaleX(-1);
+	-o-transform: scaleX(-1);
+	transform: scaleX(-1);
 }
 
